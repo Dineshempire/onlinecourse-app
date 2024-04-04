@@ -1,0 +1,98 @@
+#wrapper{
+    width:420px;
+    height: auto;
+    background-color: transparent;
+    color:#fff;
+    border-color: white;
+    
+  
+  }
+  #wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  #wrapper #inputbox{
+  position: relative;
+  width:100%;
+  height: 50px;
+  
+  margin: 30px 0;
+  }
+  #inputbox input{
+    width:100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color:#fff;
+    padding: 20px 45px 20px 20px;
+  }
+  #inputbox input::placeholder{
+    color:#fff;
+  
+  }
+  #inputbox #icon{
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  
+  }
+  
+  #remember-forgot{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color:#fff;
+    padding: 20px 45px 20px 20px;
+    margin-top: 100px;
+    
+  }
+  
+  .forgot{
+    padding: 30px;
+  }
+  button{
+    justify-content: center;
+    width: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-right-style: groove;
+    border-radius: 20px;
+    margin-left: 160px;
+    margin-top: 50px;
+    height: 50px;
+    
+  }
+  .butt{
+    color: black;
+  }
+  
+  button:hover{
+    background-color: green;
+  }
+  #register-link{
+    margin-left: 160px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  #forgot{
+    margin-left: 160px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  #icon{
+    translate: 0vh -5vh;
+    margin-bottom:20px;
+  }
+  

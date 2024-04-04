@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(242, 242, 242, 255);
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: center;
+    padding: 0 10rem;
+    
+}
+
+.box {
+    background-color: lightskyblue;
+
+}
+
+.mainContainer.box {
+    background-color: red;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.mainContainer .box:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: aliceblue;
+    text-align: center;
+    transition: .3s ease-in-out;
+    padding: 20px;
+    
+}
+
+.card:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: scale(1.1);
+}
+
+.card .image {
+    background: #f9f9f9;
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgco{
+    background-color: lightskyblue;
+}
+.desc {
+    text-align: center;
+    
+}
+
+.star {
+    text-align: center;
+}
+
+
+
+.buttonstyle {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    color:black;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+
+
+.buttonstyle:hover {
+    background-color: lightgreen; /* Change background color on hover */
+  }
+
+
+.card .desc h1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card .desc p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.card span {
+    font-size: 20px;
+}
+
+.card .star .icon {
+    font-size: 18px;
+    color: #fcaa34;
+}
+img{
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    background-image: url(R.jpeg);
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    color: black;  
+  
+
+}
